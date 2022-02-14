@@ -103,7 +103,7 @@ func _get_property_list() -> Array:
 		QodotUtil.property_dict('entity_fgd', TYPE_OBJECT, PROPERTY_HINT_RESOURCE_TYPE, 'Resource'),
 		QodotUtil.category_dict('Textures'),
 		QodotUtil.property_dict('base_texture_dir', TYPE_STRING, PROPERTY_HINT_DIR),
-		QodotUtil.property_dict('texture_file_extensions', TYPE_STRING_ARRAY),
+		QodotUtil.property_dict('texture_file_extensions', TYPE_PACKED_STRING_ARRAY),
 		QodotUtil.property_dict('worldspawn_layers', TYPE_ARRAY),
 		QodotUtil.property_dict('brush_clip_texture', TYPE_STRING),
 		QodotUtil.property_dict('face_skip_texture', TYPE_STRING),
